@@ -17,10 +17,6 @@ export async function register({
     })
     }) 
 
-    const data = await response.json()
-    console.log(data)
-
+    return await response.json()
 }
-
-
 
